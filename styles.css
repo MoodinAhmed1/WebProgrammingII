@@ -1,0 +1,14 @@
+*{
+    box-sizing: content-box;
+}
+.container{
+    padding: 50px;
+    margin: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.container h1{
+    color: blue;
+}
