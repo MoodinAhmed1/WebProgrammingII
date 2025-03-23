@@ -1,0 +1,22 @@
+  .page-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #20507e66;
+    z-index: 1; /* Ensure the overlay is above the background */
+  }
+
+  .custom-container {
+    position: relative;
+    z-index: 2; /* Ensure text is above the overlay */
+    text-align: center; /* Centers the text inside the container */
+    padding-top: 50px; /* Adjust if needed to give some breathing room */
+  }
+
+  .bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+  }
