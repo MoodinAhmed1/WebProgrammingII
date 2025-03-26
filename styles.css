@@ -1,3 +1,11 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+
 .page-header {
     position: relative;
     min-height: 100vh; /* Makes sure the page header takes up the full screen height */
