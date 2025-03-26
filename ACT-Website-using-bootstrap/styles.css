@@ -31,7 +31,7 @@
 }
 
 /* Card container setup */
-.card {
+.c-card {
     width: 300px;
     height: 400px;
     position: relative;
@@ -39,7 +39,7 @@
     transition: transform 0.5s ease-in-out; /* Smooth transition with ease-in-out for smooth start and end */
 }
 
-.card:hover {
+.c-card:hover {
     transform: rotateY(180deg); /* Flip the card when hovered */
 }
 
