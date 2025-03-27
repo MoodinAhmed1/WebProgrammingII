@@ -8,25 +8,28 @@ body, html {
 
 .page-header {
     position: relative;
-    min-height: 100vh; /* Makes sure the page header takes up the full screen height */
+    min-height: 100vh; /* Ensure the header takes up the full screen height */
+    background-size: cover; /* Background covers the entire container */
+    background-position: center center; /* Ensure the background is always centered */
 }
- .page-header::before {
+
+.page-header::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #20507e66;
-    z-index: 1; /* Ensure the overlay is above the background */
-  }
+    background-color: rgba(32, 80, 126, 0.4); /* Overlay color */
+    z-index: 1;
+}
 
-  .custom-container {
+.custom-container {
     position: relative;
-    z-index: 2; /* Ensure text is above the overlay */
-    text-align: center;
-    padding-top: 50px; /* Adjust if needed to give some breathing room */
-  }
+    z-index: 2; /* Make sure text appears above the overlay */
+    padding-top: 50px; /* Space from the top */
+}
+
 
   .bold {
     font-family: 'Poppins', sans-serif;
